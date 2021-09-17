@@ -1,0 +1,9 @@
+@import './cmps/TeamsCmps/teamCmps.scss';
+@import './cmps/UserCmps/userCmps.scss';
+@import './cmps/UnassignedCmps/unassignedCmps.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

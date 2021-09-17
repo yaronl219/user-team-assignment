@@ -1,0 +1,21 @@
+.expanded-user-preview-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+
+
+}
+
+.user-display-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0rem;
+
+}
+
+.user-preview-expanded {
+    min-width: 27.5rem;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    background-color: aqua;
+}

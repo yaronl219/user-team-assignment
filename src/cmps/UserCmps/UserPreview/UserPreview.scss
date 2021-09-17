@@ -1,0 +1,31 @@
+.user-preview-container {
+    // display: grid;
+    // grid-template-columns: 2.5rem 1fr;
+    // gap: 0.25rem;
+    padding: 0.5rem;
+    font-weight: 300;
+    
+    .user-att {
+        display: flex;
+        align-items: center;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+}
+
+.user-preview-not-expanded {
+    background-color: salmon;
+    min-width: 20rem;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.user-preview-hidden {
+    opacity: 0%;
+}
+
+.user-preview-not-dragged {
+    border: 1px solid rgba(32, 32, 32, 0.2);
+    border-top: none;
+}

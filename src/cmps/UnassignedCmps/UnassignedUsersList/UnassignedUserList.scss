@@ -1,0 +1,10 @@
+.unassigned-user-container {
+    max-width: 22rem;
+    padding: 0.5rem;
+}
+
+.unassigned-user-list {
+    display: grid;
+    gap: 0.25rem;
+    grid-template-columns: 1fr;
+}

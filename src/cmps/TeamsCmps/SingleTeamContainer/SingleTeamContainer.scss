@@ -1,0 +1,40 @@
+.accordion-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .icon-container {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .chevron-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .chevron-point-up {
+            transition: 0.2s;
+            transform: rotate(90deg);
+        }
+
+        .chevron-point-down {
+            transition: 0.2s;
+            transform: rotate(270deg);
+        }
+    }
+
+    .droppable-team-container-dragged-over {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.droppable-team-container {
+    width: 100%;
+    display: grid;
+    column-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    // position: relative;
+}
